@@ -1,8 +1,19 @@
 
+def yes_no(question):
+    valid = False
+    while not valid:
+        respones = input(question).lower()
+
+        if respones == "yes" or respones  == "y":
+            return "yes"
 
 
-def yes_no(question):...
+        elif respones == "no" or  respones == "n":
+            return "no"
 
+
+        else:
+            print ("Please anwser yes / no ")
 
 
 def instructions():
